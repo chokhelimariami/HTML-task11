@@ -75,9 +75,9 @@
     
 }
 .mario{
-    animation: transform 3s ease-in-out infinite;
+    animation: transform2 5s ease-in-out infinite;
 }
-@keyframes transform {
+@keyframes transform2 {
     0%{ transform: translate(0);}
     100%{transform: translate(1505px);}
 }
@@ -87,9 +87,10 @@
     background-color: darkgray;
 }
 .luigi {
-    animation: transform1 3s infinite ease-in-out;
+    animation: transform1 5s infinite ease-in-out;
 }
 @keyframes transform1 {
-   100%{ transform: translate(0);}
+   100%{ transform: translate(1505px);}
+   50%{ transform: translate(750px);}
     0%{ transform: translate(1505px);}
 }
